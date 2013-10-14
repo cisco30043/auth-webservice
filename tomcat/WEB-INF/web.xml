@@ -402,7 +402,7 @@
    <context-param>
        <!--the results of calling the dtcp web service url will be appended to this entry in a call to window.location.href-->
        <param-name>dtcp-verify-redirect</param-name>
-       <param-value>/examples/verifydtcpauth/verifydtcpauth.jsp?data=</param-value>
+       <param-value>/examples/verifydtcpauth/authredirect.jsp?data=</param-value>
    </context-param>
    <context-param>
        <param-name>certificate-file</param-name>
@@ -424,5 +424,12 @@
        <param-name>truststore-password</param-name>
        <param-value>changeit</param-value>
    </context-param>
-
+    <context-param>
+        <param-name>dtcp-verify-auth-success-url</param-name>
+        <param-value>success.html</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dtcp-verify-auth-fail-url</param-name>
+        <param-value>failure.html</param-value>
+    </context-param>
 </web-app>
