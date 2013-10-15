@@ -39,8 +39,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>DTCP auth jQuery demo</title>
-<script><jsp:include page="jquery-1.10.2.js"/></script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </head>
 <body>
 <script>
