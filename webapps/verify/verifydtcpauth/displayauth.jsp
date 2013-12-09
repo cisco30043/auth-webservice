@@ -156,5 +156,5 @@ Issue date: <%=issued%><br>
 Client IP address: <%=ipAddress%><br>
 Signature verified: <%=signatureVerified%><br>
 Cert chain verified: <%=certChainVerified%><br>
-DTCP authorized: <%=dtcpAuthorized%><br>
+<b>DTCP authorized: <%=dtcpAuthorized%></b><br>
 </html>
